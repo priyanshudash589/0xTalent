@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from '../assets/pdlogo.jpg'
-import LanguageIcon from '';
-
+import { GrLanguage } from "react-icons/gr";
 const Navb = () => {
     const navItems = [
         {link: "Option1" , path: "option1"},
@@ -12,9 +11,10 @@ const Navb = () => {
     ]
   return (
     <>
-    <nav className=' mt-3'>
-        <div>
-            <div className='flex flex-row space-x-7'><a className='flex flex-row items-center space-x-4' href=""><img src={ Logo } className='block h-[4rem] w-[4rem]' /> <span className='text-3xl font-bold'>Logo</span></a>
+    <nav className='mt-3'>
+        <div className='flex flex-row space-x-[12rem]'>
+            <div className='flex flex-row space-x-7 mt-4'>
+                <a className='flex flex-row items-center space-x-4' href=""><img src={ Logo } className='block h-[4rem] w-[4rem]' /> <span className='text-3xl font-bold'>Logo</span></a>
             <ul className='mt-5'>
                 <li className='flex flex-row space-x-[9rem] ml-[10rem]'>
                     {
@@ -22,9 +22,15 @@ const Navb = () => {
                     }
                 </li>
             </ul>
-            <div>
-                    <img src={ LanguageIcon } alt="" />
+            
             </div>
+
+            <div className='flex flex-row space-x-2 mt-3'>
+                    <GrLanguage className='h-[2.5rem] w-[2.5rem] mt-3'>
+                    </GrLanguage>
+                    <div className='flex flex-row space-x-5 mt-1'>
+                    <button className='h-[3.5rem] w-[9rem] text-red-800 text-xl rounded-xl bg-red-400'>Language</button>
+                        <button className='h-[3.5rem] w-[9rem] text-red-800 text-xl rounded-xl bg-red-400'>Login</button></div>
             </div>
             
         </div>
