@@ -2,6 +2,7 @@ import React from 'react'
 import MainLogo from '../assets/logo.svg'
 import Slogan from '../assets/slogantext.svg'
 
+
 const Naveth = () => {
   return (
     <>
@@ -20,6 +21,8 @@ const Naveth = () => {
             <button className='bg-black w-[11rem] rounded-full h-[4rem] text-white text-xl'>Register</button>
         </div>
     </nav>
+
+    
     </>
   )
 }
