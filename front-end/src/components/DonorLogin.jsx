@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const StudentLogin = () => {
+const DonorLogin = () => {
   return (
     <>
 
@@ -33,4 +33,4 @@ const StudentLogin = () => {
   )
 }
 
-export default StudentLogin
+export default DonorLogin
