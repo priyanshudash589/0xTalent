@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 80px;
+  background: var(--basic-200, #f7f9fc);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.sidebar-button {
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-button:hover {
+  background-color: rgba(51, 102, 255, 0.2);
+}
+
+.sidebar-button.active {
+  background-color: rgba(51, 102, 255, 0.2);
+}
