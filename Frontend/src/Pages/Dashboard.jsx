@@ -1,5 +1,5 @@
 import React from "react";
-import Frame_16 from "../components/Frame_16.jsx";
+import Frame_16 from "../componentsDashboard/Frame_16.jsx";
 
 const Dashboard = () => (
   <div
