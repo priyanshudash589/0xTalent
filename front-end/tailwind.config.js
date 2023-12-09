@@ -1,16 +1,10 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+module.exports = withMT({
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        '': "url('')",
-        '': "url('')",
-      }
-    }
+    extend: {},
   },
   plugins: [],
-}
+});
