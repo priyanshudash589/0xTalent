@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-const StudentLogin = () => {
+const Login = () => {
     return (
         <div className='flex justify-center h-[100vh] items-center '>
             <div className='bg-green-100 w-[45rem] rounded-3xl h-[75vh] border-solid border-2 border-green-300 flex flex-col items-center p-4'>
@@ -30,4 +29,4 @@ const StudentLogin = () => {
     )
 }
 
-export default StudentLogin
+export default Login
